@@ -26,6 +26,14 @@ hardened using openlane to the gds file included.
 * run make ok to use the 1st spice, which works.
 * run make broken to use the 2nd spice, which gives a non changing 1v output
 
+## ok
+
+![ok](./ok.png)
+
+## broken
+
+![broken](./broken.png)
+
 # to reproduce
 
 change the .include lines in the simulation.spice files to match your PDK path
