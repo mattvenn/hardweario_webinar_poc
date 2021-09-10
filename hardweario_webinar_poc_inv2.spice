@@ -1,0 +1,167 @@
+* NGSPICE file created from hardweario_webinar_poc.ext - technology: sky130A
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__decap_3 abstract view
+.subckt sky130_fd_sc_hd__decap_3 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__decap_4 abstract view
+.subckt sky130_fd_sc_hd__decap_4 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__fill_2 abstract view
+.subckt sky130_fd_sc_hd__fill_2 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__decap_12 abstract view
+.subckt sky130_fd_sc_hd__decap_12 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__decap_8 abstract view
+.subckt sky130_fd_sc_hd__decap_8 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__decap_6 abstract view
+.subckt sky130_fd_sc_hd__decap_6 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__buf_1 abstract view
+.subckt sky130_fd_sc_hd__buf_1 A VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__fill_1 abstract view
+.subckt sky130_fd_sc_hd__fill_1 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__inv_2 abstract view
+.subckt sky130_fd_sc_hd__inv_2 A VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__tapvpwrvgnd_1 abstract view
+.subckt sky130_fd_sc_hd__tapvpwrvgnd_1 VGND VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__clkbuf_2 abstract view
+.subckt sky130_fd_sc_hd__clkbuf_2 A VGND VNB VPB VPWR X
+.ends
+
+.subckt hardweario_webinar_poc key open VPWR VGND
+XFILLER_3_78 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_9_77 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_79 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_6_78 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_3_58 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_0_59 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_3_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_3_15 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_0_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_1_70 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_6_15 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_3_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_9_59 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_9_15 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_6_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_7_70 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_3_39 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_9_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_1_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XPHY_0 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_19 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_1_51 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XPHY_1 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_2 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_4_30 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XPHY_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_4_42 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XPHY_4 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_4_54 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XPHY_5 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_4_66 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_1_78 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_6 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_4_78 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_8_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+Xinput1 key VGND VGND VPWR VPWR _0_/A sky130_fd_sc_hd__buf_1
+XPHY_7 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_7_56 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+XFILLER_7_78 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_1_58 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XPHY_8 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_1_15 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XPHY_9 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_7_58 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_4_15 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_1_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_6_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_7_15 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_7_48 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_4_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_5_70 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_1_39 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_7_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_7_39 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_4_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_5_51 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_2_30 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_2_42 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_8_30 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_2_54 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+X_0_ _0_/A VGND VGND VPWR VPWR _0_/Y sky130_fd_sc_hd__inv_2
+XFILLER_2_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_8_42 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_2_66 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_8_54 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XPHY_30 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_2_78 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_8_66 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_5_78 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_31 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_20 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_8_78 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_21 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_10 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_5_58 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XPHY_22 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_2_15 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XPHY_11 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_5_15 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XPHY_12 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_23 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_2_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_3_70 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_8_15 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_0_71 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+XFILLER_5_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_9_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XPHY_24 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_13 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_8_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_7 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_5_39 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XPHY_25 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_14 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_9_71 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_26 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_15 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_3_51 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_30 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+Xoutput2 _0_/Y VGND VGND VPWR VPWR open sky130_fd_sc_hd__clkbuf_2
+XFILLER_7_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XPHY_27 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_16 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_42 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XPHY_17 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_6_30 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XPHY_28 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_9_30 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_0_54 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XPHY_18 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XPHY_29 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_6_42 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_9_42 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XPHY_19 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+XFILLER_6_54 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_5_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+XFILLER_9_54 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+XFILLER_6_66 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_12
+.ends
+

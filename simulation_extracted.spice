@@ -1,0 +1,25 @@
+Standard cell Simulation
+
+.include "/home/matt/work/asic-workshop/shuttle2-mpw-two-c/pdk/skywater-pdk/libraries/sky130_fd_pr/latest/models/corners/tt.spice"
+.include "/home/matt/work/asic-workshop/shuttle2-mpw-two-c/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice"
+.include "hardweario_webinar_poc_inv2_extracted.spice"
+
+Xpoc key open VPWR VGND hardweario_webinar_poc
+* set gnd and power
+Vgnd VGND 0 0
+Vdd VPWR VGND 1.8
+
+* create the key going high
+Vkey key VGND pulse(0 1.8 2.5n 10p 10p 2n 4n)
+
+* setup the transient analysis
+.tran 10p 10n 0
+
+.control
+run
+set color0 = white
+set color1 = black
+plot key, open
+.endc
+
+.end
