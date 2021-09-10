@@ -17,10 +17,9 @@ hardened using openlane to the gds file included.
 
 * hardweario_webinar_poc_inv2.spice is the one used for LVS by openlane
 * hardweario_webinar_poc_inv2_extracted.spice is the one extracted from the GDS by running the following commands in magic:
-
-    extract
-    ext2spice lvs
-    ext2spice
+    *    extract
+    *    ext2spice lvs
+    *    ext2spice
 
 # simulation
 
